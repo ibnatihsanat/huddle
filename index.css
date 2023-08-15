@@ -294,11 +294,12 @@ a {
     margin-left: 2%;
 }
 
-
-
-
-
 @media screen and (max-width:567px) {
+    body {
+        box-sizing: border-box;
+        min-width: 375px;
+    }
+
     header {
         background-image: url(./images/bg-hero-mobile.svg);
         background-color: hsl(193, 100%, 96%);
@@ -339,13 +340,14 @@ a {
     .btn-getstart {
         width: 250px;
         height: 40px;
+        margin-left: 5%;
     }
 
     .illustration {
-        width: 250px;
+        width: 300px;
         height: 300px;
         margin-top: 5%;
-        margin-left: 2%;
+        margin-left: 5%;
     }
 
     .grow-together {
@@ -354,14 +356,14 @@ a {
     }
 
     .grow-together img {
-        margin-top: -400px;
+        margin-top: -380px;
         width: 200px;
         height: 200px;
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     .grow-together h2 {
-        margin-top: 90%;
+        margin-top: 70%;
         text-align: center;
     }
 
@@ -377,15 +379,15 @@ a {
     }
 
     .flow-conversation h2 {
-        margin-top: 90%;
+        margin-top: 80%;
         text-align: center;
     }
 
     .flow-conversation img {
-        margin-top: -410px;
+        margin-top: -400px;
         width: 200px;
         height: 200px;
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     .flow-conversation p {
@@ -400,7 +402,7 @@ a {
     }
 
     .users h2 {
-        margin-top: 90%;
+        margin-top: 70%;
         text-align: center;
     }
 
@@ -408,7 +410,7 @@ a {
         margin-top: -380px;
         width: 200px;
         height: 200px;
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     .users p {
@@ -419,7 +421,7 @@ a {
     .comity {
         width: 250px;
         height: 150px;
-        margin-left: 3%;
+        margin-left: 12%;
         position: relative;
         top: 40px;
     }
@@ -431,7 +433,7 @@ a {
     }
 
     footer {
-        height: 1000px;
+        height: 1100px;
         max-width: 100%;
     }
 
@@ -452,13 +454,13 @@ a {
     }
 
     #phone {
-        margin-left: -8%;
-        margin-top: -8%;
+        margin-left: -20%;
+        margin-top: -6%;
     }
 
     #email {
-        margin-left: 2%;
-        margin-top: -8%;
+        margin-left: -10%;
+        margin-top: -6%;
     }
 
     .us {
