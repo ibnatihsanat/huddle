@@ -36,7 +36,7 @@ header button {
 }
 
 .btn-header {
-    margin-top: 1%;
+    margin-top: 2%;
     width: 150px;
     height: 40px;
     background-color: white;
@@ -421,7 +421,7 @@ a {
     .comity {
         width: 250px;
         height: 150px;
-        margin-left: 12%;
+        margin-left: 15%;
         position: relative;
         top: 40px;
     }
