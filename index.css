@@ -271,11 +271,14 @@ ul a {
 
     .header-writeup {
         text-align: center;
+        margin-left: 2rem;
     }
 
     .header-writeup h1 {
         text-align: center;
         width: 20.5rem;
+        font-size: 1.8rem;
+        margin-left: -1rem;
     }
 
     #btn-getstart {
@@ -336,6 +339,11 @@ ul a {
     .comity h2 {
         font-size: 1rem;
 
+    }
+
+    #btn-comity {
+        width: 9rem;
+        height: 1.875rem;
     }
 
     .footer-items {
