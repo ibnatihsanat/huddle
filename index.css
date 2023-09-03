@@ -25,6 +25,12 @@ header {
     background-color: hsl(193, 100%, 96%);
 }
 
+.menu {
+    display: flex;
+    padding-top: 2rem;
+}
+
+
 .head-elements {
     display: flex;
     margin-left: 2rem;
@@ -33,13 +39,10 @@ header {
 }
 
 #logo {
-    margin-top: 1.5rem;
     margin-left: 2rem;
-
 }
 
 #btn-header {
-    margin-bottom: 2rem;
     margin-left: 50rem;
     width: 9.375rem;
     height: 2.5rem;
@@ -68,6 +71,7 @@ header {
 #illustration {
     width: 40rem;
     height: 30rem;
+    margin-top: 2rem;
     margin-left: 10rem;
 }
 
@@ -260,7 +264,7 @@ ul a {
     }
 
     .head-elements {
-        margin-top: -4rem;
+        margin-top: -1rem;
         flex-direction: column;
         margin-left: 0rem;
     }
@@ -271,10 +275,18 @@ ul a {
 
     .header-writeup h1 {
         text-align: center;
+        width: 20.5rem;
+    }
+
+    #btn-getstart {
+        width: 15rem;
+        margin-left: -5rem;
     }
 
     .head-elements p {
+        text-align: center;
         font-size: 0.8rem;
+        width: 17rem;
     }
 
     #illustration {
@@ -332,6 +344,10 @@ ul a {
 
     .contact {
         margin-left: 0rem;
+    }
+
+    .location {
+        width: 12rem;
     }
 
     .us,
